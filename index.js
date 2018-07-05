@@ -396,7 +396,7 @@ var abi=
 var contract_address="0x50dcbe878df9b2270d8339adc06f97502bd092be";
 var contract_instance=web3.eth.contract(abi).at(contract_address);
 
-//general operations///////////////////////
+//general operations/////////////////////////////
 
 Router.post('/api/getTransactionStatus',jsonparser,(request,response)=>{
 	var hash=request.body.txnHash;
